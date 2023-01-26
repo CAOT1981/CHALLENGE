@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador CHALLENGE</title>
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Oswald:wght@200&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="./imagenes/Logo.png" alt="logo de alura">
+        </header>
+        <main>
+            <section>
+                <textarea class="text-area" cols="30" rows="10" placeholder="ingrese el texto aquí"></textarea>
+                <div>
+                <img class="vector" src="./imagenes/Vector.png">
+                <h2 class="anuncio">Solo letras minúsculas y sin acentos</h2>
+                </div>
+                <div class="botones"></div>
+                    <button id="boton-encriptar">Encriptar</button>
+                    <button id="boton-desencriptar">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+            <div class="rectangulo">
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <img id="muneco" src="./imagenes/Muneco.png"alt= muneco>
+                <p id="ningunMensaje">Ningún Mensaje fue encontrado"</p>
+                <p id="debajoInteriorMensaje">Ingresa el texto que desees encriptar o desencriptar</p> 
+            </div>
+            
+                <div>
+                    <button id="botonCopiar" style="display:none;">Copiar</button>
+                </div>         
+            </section>
+                
+
+        </main>
+       
+                
+        <script src="./proyectoChallenge.js"></script>
+        
+    </body>
+</html>
